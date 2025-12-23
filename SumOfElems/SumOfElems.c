@@ -1,4 +1,4 @@
-﻿// SumOfElems.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+﻿// SumOfElems.c : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 #include <stdio.h>
 #include <stdlib.h>
@@ -28,7 +28,7 @@ int main()
         printf("%d ", iArray[i]);
     }
     free(iArray);
-    printf("\r\nThe Sum of % d elements of the array is : % d\r\n",nElems, nSum);
+    printf("\r\nThe Sum of % d elements of the array is : %d\r\n",nElems, nSum);
     _fgetchar();
     fgetc(stdin);
 }
